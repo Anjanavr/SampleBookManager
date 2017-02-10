@@ -1,0 +1,3 @@
+rootProject.name = 'SampleBookManager'
+
+include ':app'
