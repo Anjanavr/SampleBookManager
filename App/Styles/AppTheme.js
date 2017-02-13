@@ -8,6 +8,10 @@ var AppTheme = StyleSheet.create ({
   formFields: {
     marginBottom: 10,
   },
+  heading: {
+    fontSize: 24,
+    fontWeight: 'bold'
+  },
   defaultText: {
     color: 'red',
     fontSize: 24
