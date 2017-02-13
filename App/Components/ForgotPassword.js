@@ -9,7 +9,7 @@ import Button from 'react-native-button';
 
 import AppTheme from '../Styles/AppTheme';
 
-var LoginScreen = React.createClass({
+var ForgotPassword = React.createClass({
   signIn: function() {
     console.log("login");
   },
@@ -17,20 +17,16 @@ var LoginScreen = React.createClass({
   render: function() {
     return (
       <View>
-        <Text style={AppTheme.heading}>Sign In</Text>
-        <TextInput
-          placeholder="username"
-        />
+        <Text style={AppTheme.heading}>Reset your password</Text>
         <TextInput placeholder="password"/>
-        <Text style={AppTheme.alignCenter}>Forgot your password</Text>
-        <Text style={AppTheme.alignCenter}>Create an account</Text>
+        <TextInput placeholder="password"/>
         <Button
           onPress={this.signIn}
           style={AppTheme.defaultButton}
-        >Login</Button>
+        >Confirm</Button>
       </View>
     );
   }
 });
 
-export default LoginScreen;
+export default ForgotPassword;

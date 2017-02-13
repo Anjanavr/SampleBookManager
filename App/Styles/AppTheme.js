@@ -6,11 +6,14 @@ var AppTheme = StyleSheet.create ({
     padding: 5
   },
   formFields: {
+    color: '#000',
+    borderColor: '#ff694d',
     marginBottom: 10,
   },
   heading: {
     fontSize: 24,
-    fontWeight: 'bold'
+    fontWeight: 'bold',
+    textAlign: 'center'
   },
   defaultText: {
     color: 'red',
@@ -19,7 +22,8 @@ var AppTheme = StyleSheet.create ({
   defaultButton: {
     color: '#fff',
     backgroundColor: '#ff694d',
-    margin: 10
+    margin: 10,
+    padding:10
   },
   alignCenter: {
     textAlign: 'center'
